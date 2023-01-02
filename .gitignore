@@ -21,3 +21,10 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+/java8/.classpath
+/java8/.gitignore
+/java8/.project
+/.idea/jpa-buddy.xml
+/java8/.settings/org.eclipse.core.resources.prefs
+/java8/.settings/org.eclipse.jdt.core.prefs
+/java8/.settings/org.eclipse.m2e.core.prefs
