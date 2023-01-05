@@ -12,13 +12,16 @@ public class LambdaLocalVariables {
     static int value = 4;
 
     public static void main(String[] args) {
+
         Consumer<Integer> c1 = (i1) -> {
+
             // i++ -> Different scopes;
-            System.out.print(i1);
+           System.out.println( "c1: " + 2);
         };
+
         Consumer<Integer> c2 = (i2) -> {
             value++;
-            System.out.print(i2 + value);
+            System.out.println( "c2: " + 2 + 3);
         };
 
         c1.accept(2);
