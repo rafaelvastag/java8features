@@ -21,7 +21,7 @@ public class NumericStreamAggregateExample {
         System.out.println(min.getAsLong());
 
         OptionalDouble avg = IntStream.rangeClosed(1, 50).average();
-        System.out.println(avg.getAsDouble());
+        System.out.println(avg.getAsDouble()); 
 
     }
 }
